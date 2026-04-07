@@ -32,7 +32,40 @@ PROCEDURE:
 6.Verify the generated results
 
 PROGRAM:
+```
+clc;
+clear;
 
-OUTPUT GRAPH:
+// Given data
+X = [3 5 6 7 9];
+
+// Number of elements
+N = length(X);
+
+// Calculate Mean
+mean_value = sum(X) / N;
+
+// Calculate Variance
+variance_value = sum((X - mean_value).^2) / N;
+
+// Display Results
+disp("Mean = ");
+disp(mean_value);
+
+disp("Variance = ");
+disp(variance_value);
+```
+
+CALCULATION:
+
+<img width="1424" height="1384" alt="image" src="https://github.com/user-attachments/assets/7cdd6acc-1e5b-4b4c-98dc-2e934ec6e583" />
+<img width="1417" height="1600" alt="image" src="https://github.com/user-attachments/assets/13a83a44-f205-4cb1-9c2d-a2194f93b77e" />
+
+
+OUTPUT:
+
+<img width="180" height="169" alt="image" src="https://github.com/user-attachments/assets/88cc13ee-072f-4887-965c-871c18fc4eb1" />
 
 RESULT:
+
+<img width="1348" height="894" alt="image" src="https://github.com/user-attachments/assets/dfc77bab-74e8-4731-a457-4488a1c9f737" />
